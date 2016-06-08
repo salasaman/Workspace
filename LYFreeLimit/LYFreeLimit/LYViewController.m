@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // 背景颜色
     [self.view setBackgroundColor:[UIColor greenColor]];
 }
 

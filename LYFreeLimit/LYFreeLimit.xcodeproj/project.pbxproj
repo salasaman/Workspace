@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		087DD95D8FEC97CCF47514E2 /* libPods-LYFreeLimit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AAD8185AD8EF6A6D8C77B72 /* libPods-LYFreeLimit.a */; };
 		BCF6D2991D07F12D00B4C269 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6D2981D07F12D00B4C269 /* main.m */; };
 		BCF6D29C1D07F12D00B4C269 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6D29B1D07F12D00B4C269 /* AppDelegate.m */; };
 		BCF6D29F1D07F12D00B4C269 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6D29E1D07F12D00B4C269 /* ViewController.m */; };
@@ -29,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AAD8185AD8EF6A6D8C77B72 /* libPods-LYFreeLimit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYFreeLimit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D98EEDB2A0A3893E824AB9 /* Pods-LYFreeLimit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYFreeLimit.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYFreeLimit/Pods-LYFreeLimit.release.xcconfig"; sourceTree = "<group>"; };
+		6A4323B3472A3A041BE5CA2B /* Pods-LYFreeLimit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYFreeLimit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYFreeLimit/Pods-LYFreeLimit.debug.xcconfig"; sourceTree = "<group>"; };
 		BCF6D2931D07F12D00B4C269 /* LYFreeLimit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYFreeLimit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF6D2971D07F12D00B4C269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCF6D2981D07F12D00B4C269 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				087DD95D8FEC97CCF47514E2 /* libPods-LYFreeLimit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +70,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1547C0709F77743D1904423B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AAD8185AD8EF6A6D8C77B72 /* libPods-LYFreeLimit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BCF6D28A1D07F12D00B4C269 = {
 			isa = PBXGroup;
 			children = (
 				BCF6D2951D07F12D00B4C269 /* LYFreeLimit */,
 				BCF6D2AF1D07F12D00B4C269 /* LYFreeLimitTests */,
 				BCF6D2941D07F12D00B4C269 /* Products */,
+				F30BE7A3AA8AC7C5EE8ECFE7 /* Pods */,
+				1547C0709F77743D1904423B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,13 +101,13 @@
 		BCF6D2951D07F12D00B4C269 /* LYFreeLimit */ = {
 			isa = PBXGroup;
 			children = (
-				BCF6D2BF1D07F9E300B4C269 /* topic_Header.png */,
 				BCF6D29A1D07F12D00B4C269 /* AppDelegate.h */,
 				BCF6D29B1D07F12D00B4C269 /* AppDelegate.m */,
 				BCF6D29D1D07F12D00B4C269 /* ViewController.h */,
 				BCF6D29E1D07F12D00B4C269 /* ViewController.m */,
 				BCF6D2BC1D07F5A800B4C269 /* LYViewController.h */,
 				BCF6D2BD1D07F5A800B4C269 /* LYViewController.m */,
+				BCF6D2BF1D07F9E300B4C269 /* topic_Header.png */,
 				BCF6D2A01D07F12D00B4C269 /* Main.storyboard */,
 				BCF6D2A31D07F12D00B4C269 /* Images.xcassets */,
 				BCF6D2A51D07F12D00B4C269 /* LaunchScreen.xib */,
@@ -127,6 +142,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F30BE7A3AA8AC7C5EE8ECFE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A4323B3472A3A041BE5CA2B /* Pods-LYFreeLimit.debug.xcconfig */,
+				61D98EEDB2A0A3893E824AB9 /* Pods-LYFreeLimit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCF6D2B61D07F12D00B4C269 /* Build configuration list for PBXNativeTarget "LYFreeLimit" */;
 			buildPhases = (
+				E0B824317EC9E9197A52D0B9 /* [CP] Check Pods Manifest.lock */,
 				BCF6D28F1D07F12D00B4C269 /* Sources */,
 				BCF6D2901D07F12D00B4C269 /* Frameworks */,
 				BCF6D2911D07F12D00B4C269 /* Resources */,
+				8251D6B1B8FDE6BFEFAD8B7C /* [CP] Embed Pods Frameworks */,
+				4F703C1DDDEFCA26AB817719 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,6 +249,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F703C1DDDEFCA26AB817719 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYFreeLimit/Pods-LYFreeLimit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8251D6B1B8FDE6BFEFAD8B7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYFreeLimit/Pods-LYFreeLimit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0B824317EC9E9197A52D0B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BCF6D28F1D07F12D00B4C269 /* Sources */ = {
@@ -355,6 +430,7 @@
 		};
 		BCF6D2B71D07F12D00B4C269 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A4323B3472A3A041BE5CA2B /* Pods-LYFreeLimit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LYFreeLimit/Info.plist;
@@ -365,6 +441,7 @@
 		};
 		BCF6D2B81D07F12D00B4C269 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61D98EEDB2A0A3893E824AB9 /* Pods-LYFreeLimit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LYFreeLimit/Info.plist;
