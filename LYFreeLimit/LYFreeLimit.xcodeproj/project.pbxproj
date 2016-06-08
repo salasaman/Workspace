@@ -15,6 +15,7 @@
 		BCF6D2A71D07F12D00B4C269 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF6D2A51D07F12D00B4C269 /* LaunchScreen.xib */; };
 		BCF6D2B31D07F12D00B4C269 /* LYFreeLimitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6D2B21D07F12D00B4C269 /* LYFreeLimitTests.m */; };
 		BCF6D2BE1D07F5A800B4C269 /* LYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6D2BD1D07F5A800B4C269 /* LYViewController.m */; };
+		BCF6D2C01D07F9E300B4C269 /* topic_Header.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF6D2BF1D07F9E300B4C269 /* topic_Header.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		BCF6D2B21D07F12D00B4C269 /* LYFreeLimitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFreeLimitTests.m; sourceTree = "<group>"; };
 		BCF6D2BC1D07F5A800B4C269 /* LYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYViewController.h; sourceTree = "<group>"; };
 		BCF6D2BD1D07F5A800B4C269 /* LYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYViewController.m; sourceTree = "<group>"; };
+		BCF6D2BF1D07F9E300B4C269 /* topic_Header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topic_Header.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		BCF6D2951D07F12D00B4C269 /* LYFreeLimit */ = {
 			isa = PBXGroup;
 			children = (
+				BCF6D2BF1D07F9E300B4C269 /* topic_Header.png */,
 				BCF6D29A1D07F12D00B4C269 /* AppDelegate.h */,
 				BCF6D29B1D07F12D00B4C269 /* AppDelegate.m */,
 				BCF6D29D1D07F12D00B4C269 /* ViewController.h */,
@@ -206,6 +209,7 @@
 			files = (
 				BCF6D2A21D07F12D00B4C269 /* Main.storyboard in Resources */,
 				BCF6D2A71D07F12D00B4C269 /* LaunchScreen.xib in Resources */,
+				BCF6D2C01D07F9E300B4C269 /* topic_Header.png in Resources */,
 				BCF6D2A41D07F12D00B4C269 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
