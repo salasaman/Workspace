@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LYViewController.h
 //  LYFreeLimit
 //
 //  Created by 千锋 on 16/6/8.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface LYViewController : UIViewController
 
 @end
-
